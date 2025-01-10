@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(Quizzler());
+void main() => runApp(Qizo());
 
-class Quizzler extends StatelessWidget {
+class Qizo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -52,7 +52,7 @@ class _QuizPageState extends State<QuizPage> {
             padding: EdgeInsets.all(15.0),
             child: TextButton(
               style: TextButton.styleFrom(
-                primary: Colors.white,
+                foregroundColor: Colors.white,
                 backgroundColor: Colors.green,
               ),
               child: Text(
@@ -73,7 +73,7 @@ class _QuizPageState extends State<QuizPage> {
             padding: EdgeInsets.all(15.0),
             child: TextButton(
               style: TextButton.styleFrom(
-                primary: Colors.white,
+                foregroundColor: Colors.white,
                 backgroundColor: Colors.red,
               ),
               child: Text(
